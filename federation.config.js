@@ -5,7 +5,7 @@ module.exports = withNativeFederation({
   name: 'bytebank-dashboard-angular',
 
   exposes: {
-    './Component': './src/app/app.ts',
+    './Component': './src/app/app.component.ts',
   },
 
   shared: {
@@ -18,16 +18,9 @@ module.exports = withNativeFederation({
     'rxjs/testing',
     'rxjs/webSocket',
     // Add further packages you don't need at runtime
-  ],
+  ]
 
   // Please read our FAQ about sharing libs:
   // https://shorturl.at/jmzH0
 
-  features: {
-    // New feature for more performance and avoiding
-    // issues with node libs. Comment this out to
-    // get the traditional behavior:
-    ignoreUnusedDeps: true
-  }
-  
 });
