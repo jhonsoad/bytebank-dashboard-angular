@@ -1,4 +1,6 @@
-<form class="form" (ngSubmit)="handleSubmit()">
+<form class="form" (ngSubmit)="handleSubmit()"
+     [style.--bg-top]="'url(' + ('/assets/images/image-top-right.svg' | imgUrl) + ')'"
+     [style.--bg-bottom]="'url(' + ('/assets/images/image-bottom-left.svg' | imgUrl) + ')'">
   <h3 class="title">Nova transação</h3>
   <p *ngIf="errorMessage" class="errorMessage">{{ errorMessage }}</p>
   <app-dropdown

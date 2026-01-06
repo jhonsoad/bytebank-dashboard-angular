@@ -8,11 +8,12 @@ import { of } from 'rxjs';
 import { PostSaldoService } from '../../../services/post-saldo-conta/post-saldo-conta.service';
 import { Transaction, TransactionType } from '../../../shared/interfaces/account.interface';
 import { DropdownComponent } from '../../common/dropdown/dropdown.component';
+import { ImgUrlPipe } from "../../../shared/pipes/img-url.pipe";
 
 @Component({
   selector: 'app-transaction-form',
   standalone: true,
-  imports: [ButtonComponent, InputComponent, CommonModule, FormsModule, DropdownComponent],
+  imports: [ButtonComponent, InputComponent, CommonModule, FormsModule, DropdownComponent, ImgUrlPipe],
   templateUrl: './transaction-form.component.html',
   styleUrl: './transaction-form.component.css'
 })

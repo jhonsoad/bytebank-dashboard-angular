@@ -1,6 +1,7 @@
 <div class="dropdownGroup">
   <label *ngIf="label" [for]="selectId" class="label">{{ label }}</label>
   <select
+    [style.--bg-top]="'url(' + ('/assets/icons/icon-seta.svg' | imgUrl) + ')'"
     [id]="selectId"
     [name]="name"
     [disabled]="disabled"

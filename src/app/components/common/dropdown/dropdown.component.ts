@@ -1,6 +1,7 @@
 import { Component, forwardRef, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, NG_VALUE_ACCESSOR, FormsModule } from '@angular/forms';
+import { ImgUrlPipe } from "../../../shared/pipes/img-url.pipe";
 
 export interface DropdownOption {
   value: string;
@@ -9,7 +10,7 @@ export interface DropdownOption {
 
 @Component({
   selector: 'app-dropdown',
-  imports: [CommonModule, ReactiveFormsModule, FormsModule],
+  imports: [CommonModule, ReactiveFormsModule, FormsModule, ImgUrlPipe],
   templateUrl: './dropdown.component.html',
   styleUrl: './dropdown.component.css',
     providers: [
