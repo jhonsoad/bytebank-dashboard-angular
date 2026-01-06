@@ -1,11 +1,11 @@
 .button {
-  padding: var(--spacing-md) var(--spacing-lg);
+  padding: var(--s-md) var(--s-lg);
   border: none;
   border-radius: var(--border-radius-md);
   cursor: pointer;
-  font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-text);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--medium);
+  font-size: var(--text);
+  font-weight: var(--medium);
 }
 
 .primary {

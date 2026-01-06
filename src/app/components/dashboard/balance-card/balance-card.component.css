@@ -1,35 +1,35 @@
 .card {
   background-color: var(--color-bg-blue);
   color: var(--color-white);
-  padding: var(--spacing-xl);
+  padding: var(--s-xl);
   border-radius: var(--border-radius-md);
   width: 690px;
   height: 402px;
 }
 
 .greeting {
-  font-size: var(--font-size-title-h2);
-  font-weight: var(--font-weight-medium);
-  margin-bottom: var(--spacing-xl);
+  font-size: var(--title-h2);
+  font-weight: var(--medium);
+  margin-bottom: var(--s-xl);
 }
 
 .date {
-  font-size: var(--font-size-text-small);
+  font-size: var(--text-small);
 }
 
 .balanceInfo {
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: var(--spacing-sm);
-  margin-bottom: var(--spacing-xs);
-  margin-right: var(--spacing-3xl);
+  gap: var(--s-sm);
+  margin-bottom: var(--s-xs);
+  margin-right: var(--s-3xl);
 }
 
 .balanceSaldo {
   display: flex;
   justify-content: end;
-  gap: var(--spacing-lg);
+  gap: var(--s-lg);
   align-items: center;
   margin-right: 83px;
 }
@@ -42,17 +42,17 @@
 }
 
 .balanceLabel {
-  font-size: var(--font-size-title-h3);
-  font-weight: var(--font-weight-medium);
+  font-size: var(--title-h3);
+  font-weight: var(--medium);
 }
 
 .balanceValue {
-  font-size: var(--font-size-big);
-  font-weight: var(--font-weight-regular);
+  font-size: var(--big);
+  font-weight: var(--regular);
   margin-right: 10px;
 }
 
 .accountType {
-  font-size: var(--font-size-text);
+  font-size: var(--text);
   margin-right: 65px;
 }

@@ -1,6 +1,6 @@
 .deleteConfirmationContent {
-  font-size: var(--font-size-text-small);
-  font-weight: var(--font-weight-regular);
+  font-size: var(--text-small);
+  font-weight: var(--regular);
   color: var(--color-text-dark);
 }
 
@@ -9,12 +9,12 @@
 }
 
 .deleteConfirmationtext {
-  font-size: var(--font-size-text);
-  margin-bottom: var(--spacing-lg);
+  font-size: var(--text);
+  margin-bottom: var(--s-lg);
 }
 
 .deleteConfirmationContentText {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--s-lg);
 }
 
 .deleteConfirmationContentText p {

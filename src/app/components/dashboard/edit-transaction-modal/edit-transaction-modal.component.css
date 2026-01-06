@@ -1,7 +1,7 @@
 .editForm {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-md);
+  gap: var(--s-md);
   align-items: baseline;
 }
 

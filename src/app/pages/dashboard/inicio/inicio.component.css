@@ -1,20 +1,20 @@
 .dashboardLayout {
   display: flex;
   justify-content: center;
-  gap: var(--spacing-lg);
+  gap: var(--s-lg);
   background-color: var(--color-bg-green);
-  padding: var(--spacing-lg);
+  padding: var(--s-lg);
 }
 
 .dashboardHeader {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-bottom: var(--spacing-md);
+  padding-bottom: var(--s-md);
   border-bottom: 1px solid var(--color-tertiary);
-  gap: var(--spacing-md);
-  font-size: var(--font-size-body);
-  font-weight: var(--font-weight-medium);
+  gap: var(--s-md);
+  font-size: var(--body);
+  font-weight: var(--medium);
   color: var(--color-text-dark);
 }
 
@@ -31,13 +31,13 @@
 .cardsFlex {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-2xl);
-  margin-bottom: var(--spacing-2xl);
+  gap: var(--s-2xl);
+  margin-bottom: var(--s-2xl);
 }
 
 .newTransactionSection {
   display: flex;
-  gap: var(--spacing-2xl);
+  gap: var(--s-2xl);
   align-items: flex-start;
   position: relative;
 }
@@ -52,7 +52,7 @@
     width: 100%;
     border-right: none;
     border-bottom: 1px solid var(--color-tertiary);
-    padding: var(--spacing-md);
+    padding: var(--s-md);
   }
 
   .sidebar ul {
@@ -65,7 +65,7 @@
   }
 
   .sidebar a {
-    padding: var(--spacing-xs);
+    padding: var(--s-xs);
     text-align: center;
   }
 
@@ -75,12 +75,12 @@
 
   .cardsGrid {
     grid-template-columns: 1fr;
-    gap: var(--spacing-xl);
+    gap: var(--s-xl);
   }
 
   .newTransactionSection {
     flex-direction: column;
-    gap: var(--spacing-xl);
+    gap: var(--s-xl);
   }
 
   .patternBackground {
