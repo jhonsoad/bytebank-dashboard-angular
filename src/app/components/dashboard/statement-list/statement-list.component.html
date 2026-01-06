@@ -20,14 +20,14 @@
             class="actionButton"
             title="Editar transação"
           >
-            <img [src]="baseUrl + '/assets/icons/icon-edit.svg'" alt="Editar" width="20" height="20" />
+            <img [src]="'/assets/icons/icon-edit.svg'  | imgUrl" alt="Editar" width="20" height="20" />
           </button>
           <button
             (click)="handleDeleteClick(item.id)"
             class="actionButton"
             title="Deletar transação"
           >
-            <img [src]="baseUrl + '/assets/icons/icon-trash.svg'" alt="Deletar" width="20" height="20" />
+            <img [src]="'/assets/icons/icon-trash.svg'  | imgUrl" alt="Deletar" width="20" height="20" />
           </button>
         </div>
       </div>

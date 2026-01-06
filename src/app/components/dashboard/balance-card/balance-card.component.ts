@@ -1,10 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { environment } from '../../../../environments/environment';
+import { ImgUrlPipe } from "../../../shared/pipes/img-url.pipe";
 
 @Component({
   selector: 'app-balance-card',
-  imports: [CommonModule],
+  imports: [CommonModule, ImgUrlPipe],
   templateUrl: './balance-card.component.html',
   styleUrl: './balance-card.component.css'
 })
