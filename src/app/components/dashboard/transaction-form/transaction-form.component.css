@@ -1,7 +1,7 @@
 .form {
   background-color: var(--bg-gray);
   padding: var(--s-xl);
-  border-radius: var(--border-radius-md);
+  border-radius: var(--br-md);
   box-shadow: var(--shadow-sm);
   flex-grow: 1;
   height: 478px;

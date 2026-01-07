@@ -2,7 +2,7 @@
   background-color: var(--bg-white);
   padding: var(--s-xl);
   border-right: 1px solid var(--tertiary);
-  border-radius: var(--border-radius-md)
+  border-radius: var(--br-md)
 }
 
 .sidebar ul {

@@ -13,7 +13,7 @@
 .dropdown {
   padding: var(--s-sm);
   border: 1px solid var(--bg-blue);
-  border-radius: var(--border-radius-md);
+  border-radius: var(--br-md);
   font-size: var(--text);
   color: var(--text-dark);
   cursor: pointer;

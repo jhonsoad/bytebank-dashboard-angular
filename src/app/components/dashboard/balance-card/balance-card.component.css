@@ -2,7 +2,7 @@
   background-color: var(--bg-blue);
   color: var(--white);
   padding: var(--s-xl);
-  border-radius: var(--border-radius-md);
+  border-radius: var(--br-md);
   width: 690px;
   height: 402px;
 }
