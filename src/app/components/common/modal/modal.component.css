@@ -39,12 +39,12 @@
   background: none;
   border: none;
   font-size: 2rem;
-  color: var(--color-bg-blue);
+  color: var(--bg-blue);
   cursor: pointer;
 }
 
 .modalCloseButton:hover {
-  color: var(--color-danger);
+  color: var(--danger);
 }
 
 

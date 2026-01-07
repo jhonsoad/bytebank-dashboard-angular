@@ -1,11 +1,11 @@
 .deleteConfirmationContent {
   font-size: var(--text-small);
   font-weight: var(--regular);
-  color: var(--color-text-dark);
+  color: var(--text-dark);
 }
 
 .deleteConfirmationContent strong {
-  color: var(--color-text-primary);
+  color: var(--text-primary);
 }
 
 .deleteConfirmationtext {

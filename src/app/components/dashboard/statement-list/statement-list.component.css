@@ -1,5 +1,5 @@
 .card {
-  background-color: var(--color-bg-white);
+  background-color: var(--bg-white);
   padding: var(--s-xl);
   border-radius: var(--border-radius-md);
   box-shadow: var(--shadow-sm);
@@ -12,14 +12,14 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: var(--s-md);
-  border-bottom: 1px solid var(--color-tertiary);
+  border-bottom: 1px solid var(--tertiary);
   padding-bottom: var(--s-sm);
 }
 
 .title {
   font-size: var(--title-h2);
   font-weight: var(--bold);
-  color: var(--color-black);
+  color: var(--black);
 }
 
 /* Icones do lado titulo do extrato */
@@ -44,7 +44,7 @@
 
 .noTransactionsMessage {
   text-align: center;
-  color: var(--color-gray-500);
+  color: var(--gray-500);
   padding: 20px;
 }
 
@@ -64,7 +64,7 @@
 
 .itemMonth {
   font-size: var(--text-small);
-  color: var(--color-quinary);
+  color: var(--quinary);
   font-weight: var(--medium);
 }
 
@@ -82,7 +82,7 @@
 .itemDate {
   font-size: var(--text-small);
   font-weight: var(--regular);
-  color: var(--color-gray);
+  color: var(--gray);
 }
 
 .itemAmountActions {
@@ -96,7 +96,7 @@
 }
 
 .itemAmount.negative {
-  color: var(--color-secondary); /* Laranja para valores negativos (transferência) */
+  color: var(--secondary); /* Laranja para valores negativos (transferência) */
 }
 
 .itemActions {
@@ -113,7 +113,7 @@
 }
 
 .actionButton:hover {
-  background-color: var(--color-gray-100); /* Exemplo de cor de hover */
+  background-color: var(--gray-100); /* Exemplo de cor de hover */
 }
 
 .actionButton:hover img {

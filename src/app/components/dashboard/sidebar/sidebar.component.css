@@ -1,7 +1,7 @@
 .sidebar {
-  background-color: var(--color-bg-white);
+  background-color: var(--bg-white);
   padding: var(--s-xl);
-  border-right: 1px solid var(--color-tertiary);
+  border-right: 1px solid var(--tertiary);
   border-radius: var(--border-radius-md)
 }
 
@@ -16,7 +16,7 @@
 .sidebar a {
   display: block;
   padding: var(--s-xs) var(--s-md);
-  color: var(--color-text-dark);
+  color: var(--text-dark);
   text-decoration: none;
   font-size: var(--text);
   font-weight: var(--regular);
@@ -31,11 +31,11 @@
 }
 
 .sidebar a:hover {
-  background-color: var(--color-senary);
-  color: var(--color-bg-blue);
+  background-color: var(--senary);
+  color: var(--bg-blue);
 }
 
 .sidebar a.active {
-  color: var(--color-quinary);
+  color: var(--quinary);
   font-weight: var(--bold);
 }

@@ -1,5 +1,5 @@
 .form {
-  background-color: var(--color-bg-gray);
+  background-color: var(--bg-gray);
   padding: var(--s-xl);
   border-radius: var(--border-radius-md);
   box-shadow: var(--shadow-sm);
@@ -19,7 +19,7 @@
 .title {
   font-size: var(--title-h2);
   font-weight: var(--bold);
-  color: var(--color-bg-blue); /*color: var(--color-tertiary); /* mudado por contraste */
+  color: var(--bg-blue); /*color: var(--tertiary); /* mudado por contraste */
   margin-bottom: var(--s-xl);
 }
 
@@ -31,5 +31,5 @@
 .errorMessage {
   font-size: var(--title-h2);
   font-weight: var(--bold);
-  color: var(--color-secondary);
+  color: var(--secondary);
 }

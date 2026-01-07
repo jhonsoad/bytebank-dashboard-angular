@@ -6,16 +6,16 @@
 
 .label {
   font-size: var(--body-small);
-  color: var(--color-text-dark);
+  color: var(--text-dark);
   margin-bottom: var(--s-xxs);
 }
 
 .dropdown {
   padding: var(--s-sm);
-  border: 1px solid var(--color-bg-blue);
+  border: 1px solid var(--bg-blue);
   border-radius: var(--border-radius-md);
   font-size: var(--text);
-  color: var(--color-text-dark);
+  color: var(--text-dark);
   cursor: pointer;
   width: 355px;
   appearance: none; /* Remove a seta padrão do navegador */
@@ -27,6 +27,6 @@
 
 .dropdown:focus {
   outline: none;
-  border-color: var(--color-bg-blue);
+  border-color: var(--bg-blue);
   box-shadow: 0 0 0 2px rgba(0, 77, 97, 0.2);
 }
