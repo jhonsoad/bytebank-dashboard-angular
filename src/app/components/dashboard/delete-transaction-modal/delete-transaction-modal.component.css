@@ -1,0 +1,22 @@
+.deleteConfirmationContent {
+  font-size: var(--text-small);
+  font-weight: var(--regular);
+  color: var(--text-dark);
+}
+
+.deleteConfirmationContent strong {
+  color: var(--text-primary);
+}
+
+.deleteConfirmationtext {
+  font-size: var(--text);
+  margin-bottom: var(--s-lg);
+}
+
+.deleteConfirmationContentText {
+  margin-bottom: var(--s-lg);
+}
+
+.deleteConfirmationContentText p {
+  margin-bottom: 10px;
+}

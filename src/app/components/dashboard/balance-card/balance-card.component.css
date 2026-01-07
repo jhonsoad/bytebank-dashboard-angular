@@ -1,0 +1,58 @@
+.card {
+  background-color: var(--bg-blue);
+  color: var(--white);
+  padding: var(--s-xl);
+  border-radius: var(--br-md);
+  width: 690px;
+  height: 402px;
+}
+
+.greeting {
+  font-size: var(--title-h2);
+  font-weight: var(--medium);
+  margin-bottom: var(--s-xl);
+}
+
+.date {
+  font-size: var(--text-small);
+}
+
+.balanceInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: var(--s-sm);
+  margin-bottom: var(--s-xs);
+  margin-right: var(--s-3xl);
+}
+
+.balanceSaldo {
+  display: flex;
+  justify-content: end;
+  gap: var(--s-lg);
+  align-items: center;
+  margin-right: 83px;
+}
+
+.balanceHr {
+  width: 180px;
+  border: none;
+  height: 2px;
+  background-color: #FF5031;
+}
+
+.balanceLabel {
+  font-size: var(--title-h3);
+  font-weight: var(--medium);
+}
+
+.balanceValue {
+  font-size: var(--big);
+  font-weight: var(--regular);
+  margin-right: 10px;
+}
+
+.accountType {
+  font-size: var(--text);
+  margin-right: 65px;
+}

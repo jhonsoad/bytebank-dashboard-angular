@@ -1,0 +1,89 @@
+.dashboardLayout {
+  display: flex;
+  justify-content: center;
+  gap: var(--s-lg);
+  background-color: var(--bg-green);
+  padding: var(--s-lg);
+}
+
+.dashboardHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: var(--s-md);
+  border-bottom: 1px solid var(--tertiary);
+  gap: var(--s-md);
+  font-size: var(--body);
+  font-weight: var(--medium);
+  color: var(--text-dark);
+}
+
+.userIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--senary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsFlex {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2xl);
+  margin-bottom: var(--s-2xl);
+}
+
+.newTransactionSection {
+  display: flex;
+  gap: var(--s-2xl);
+  align-items: flex-start;
+  position: relative;
+}
+
+/* Em telas menores */
+@media (max-width: var(--tablet)) {
+  .dashboardLayout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--tertiary);
+    padding: var(--s-md);
+  }
+
+  .sidebar ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sidebar li {
+    margin-bottom: 0;
+  }
+
+  .sidebar a {
+    padding: var(--s-xs);
+    text-align: center;
+  }
+
+  .dashboardHeader {
+    justify-content: center;
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: var(--s-xl);
+  }
+
+  .newTransactionSection {
+    flex-direction: column;
+    gap: var(--s-xl);
+  }
+
+  .patternBackground {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.form {
+  background-color: var(--bg-gray);
+  padding: var(--s-xl);
+  border-radius: var(--br-md);
+  box-shadow: var(--shadow-sm);
+  flex-grow: 1;
+  height: 478px;
+  position: relative; /* Essencial para que overflow: hidden funcione corretamente e para contextos de posicionamento */
+  overflow: hidden;   /* Garante que as imagens não "vazem" para fora das bordas do formulário */
+  background-image:
+    var(--bg-top), 
+    var(--bg-bottom);
+  background-position:
+    top right,
+    bottom left;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.title {
+  font-size: var(--title-h2);
+  font-weight: var(--bold);
+  color: var(--bg-blue); /*color: var(--tertiary); /* mudado por contraste */
+  margin-bottom: var(--s-xl);
+}
+
+.submitButton {
+  width: 250px;
+  margin-top: var(--s-md);
+}
+
+.errorMessage {
+  font-size: var(--title-h2);
+  font-weight: var(--bold);
+  color: var(--secondary);
+}

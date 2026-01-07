@@ -5,6 +5,7 @@ module.exports = withNativeFederation({
   name: 'bytebank-dashboard-angular',
 
   exposes: {
+    './routes': './src/app/app.routes.ts',
     './Component': './src/app/app.component.ts',
   },
 

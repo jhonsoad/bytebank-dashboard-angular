@@ -1,0 +1,32 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--s-lg);
+
+}
+
+.label {
+  font-size: var(--text);
+  font-weight: var(--medium);
+  color: var(--bg-blue); /*color: var(--tertiary); /* mudado por contraste */
+  margin-bottom: var(--s-md)
+}
+
+.input {
+  padding: var(--s-sm);
+  border: 1px solid var(--bg-blue);
+  border-radius: var(--br-md);
+  font-size: var(--text);
+  font-weight: var(--regular);
+  color: var(--text-dark);
+  background-color: var(--white);
+  transition: border-color 0.2s ease-in-out;
+  text-align: center;
+  width: 255px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--bg-blue);
+  box-shadow: 0 0 0 2px rgba(0, 77, 97, 0.2); /* Sombra suave no foco */
+}

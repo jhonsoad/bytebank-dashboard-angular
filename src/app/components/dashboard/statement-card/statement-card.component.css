@@ -1,0 +1,187 @@
+.card {
+  background-color: var(--bg-white);
+  padding: var(--s-xl);
+  border-radius: var(--br-md);
+  box-shadow: var(--shadow-sm);
+  min-width: 300px;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: var(--s-md);
+  border-bottom: 1px solid var(--tertiary);
+  padding-bottom: var(--s-sm);
+}
+
+.title {
+  font-size: var(--title-h2);
+  font-weight: var(--bold);
+  color: var(--black);
+}
+
+/* Icones do lado titulo do extrato */
+/* .actions {
+  display: flex;
+  gap: var(--s-sm);
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 1;
+} */
+
+.statementList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-lg)
+}
+
+.noTransactionsMessage {
+  text-align: center;
+  color: var(--gray-500);
+  padding: 20px;
+}
+
+
+.statementItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hr {
+  background-color: #47A13880;
+  border: none;
+  height: 1px;
+  width: 180px;
+}
+
+.itemMonth {
+  font-size: var(--text-small);
+  color: var(--quinary);
+  font-weight: var(--medium);
+}
+
+.itemsTypeDate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemType {
+  font-size: var(--text);
+  color: black;
+  font-weight: var(--regular);
+}
+
+.itemDate {
+  font-size: var(---text-small);
+  font-weight: var(--regular);
+  color: var(--gray);
+}
+
+.itemAmountActions {
+  display: flex;
+}
+
+.itemAmount {
+  font-size: var(--text);
+  font-weight: var(--medium);
+  color: black
+}
+
+.itemAmount.negative {
+  color: var(--secondary); /* Laranja para valores negativos (transferência) */
+}
+
+.itemActions {
+  display: flex;
+  gap:10px;
+  margin-left: auto;
+}
+
+.actionButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.actionButton:hover {
+  background-color: var(--gray-100); /* Exemplo de cor de hover */
+}
+
+.actionButton:hover img {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+
+
+/* Modal Edição */
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-md);
+  align-items: baseline;
+}
+
+/* Editar tipo de transação */
+/* .formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--text-primary);
+}
+
+.inputField {
+  padding: 10px;
+  border: 1px solid var(--gray-300);
+  border-radius: 4px;
+  font-size: 1rem;
+}*/
+
+.modalActions {
+  display: flex;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+
+/* Modal Delete */
+
+.deleteConfirmationContent {
+  font-size: var(--text-small);
+  font-weight: var(--regular);
+  color: var(--text-dark);
+}
+
+.deleteConfirmationContent strong {
+  color: var(--text-primary);
+}
+
+.deleteConfirmationtext {
+  font-size: var(--text);
+  margin-bottom: var(--s-lg);
+}
+
+.deleteConfirmationContentText {
+  margin-bottom: var(--s-lg);
+}
+
+.deleteConfirmationContentText p {
+  margin-bottom: 10px;
+}
+
+.dropdown {
+  width: 50%;
+}
