@@ -1,7 +1,5 @@
 :root {
-
-  --breakpoint-mobile: 360px;
-  --breakpoint-tablet: 720px;
-  --breakpoint-desktop: 1920px;
-
+  --mobile: 360px;
+  --tablet: 720px;
+  --desktop: 1920px;
 }
