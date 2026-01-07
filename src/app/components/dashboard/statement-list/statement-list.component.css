@@ -19,7 +19,7 @@
 .title {
   font-size: var(--title-h2);
   font-weight: var(--bold);
-  color: var(--black);
+  color: black;
 }
 
 /* Icones do lado titulo do extrato */
