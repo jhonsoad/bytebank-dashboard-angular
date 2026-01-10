@@ -23,21 +23,5 @@
 
   <app-statement-list
     [transactions]="filteredTransactions"
-    (onEditRequest)="onEditRequest($event)"
-    (onDeleteRequest)="onDeleteRequest($event)"
   ></app-statement-list>
-
-  <app-edit-transaction-modal
-    [isEditModalOpen]="isEditModalOpen"
-    [transactionToEdit]="transactionToEdit"
-    (onClose)="closeEditModal()"
-    (onEditComplete)="onEditComplete($event)"
-  ></app-edit-transaction-modal>
-
-  <app-delete-transaction-modal
-    [isDeleteModalOpen]="isDeleteModalOpen"
-    [transactionToDelete]="transactionToDelete"
-    (onClose)="closeDeleteModal()"
-    (onDeleteConfirm)="onDeleteConfirm($event)"
-  ></app-delete-transaction-modal>
 </div>
