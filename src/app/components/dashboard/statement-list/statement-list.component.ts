@@ -2,12 +2,11 @@ import { Component, Output, EventEmitter, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { environment } from '../../../../environments/environment';
 import { Transaction } from '../../../shared/interfaces/account.interface';
-import { ImgUrlPipe } from "../../../shared/pipes/img-url.pipe";
 
 @Component({
   selector: 'app-statement-list',
   standalone: true,
-  imports: [CommonModule, ImgUrlPipe],
+  imports: [CommonModule],
   templateUrl: './statement-list.component.html',
   styleUrl: './statement-list.component.css'
 })

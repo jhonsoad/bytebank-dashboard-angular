@@ -1,13 +1,16 @@
 import { TestBed } from '@angular/core/testing';
-
-import { PostSaldoContaService } from './post-saldo-conta.service';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import { PostSaldoService } from './post-saldo-conta.service';
+import { provideHttpClient } from '@angular/common/http';
 
 describe('PostSaldoContaService', () => {
-  let service: PostSaldoContaService;
+  let service: PostSaldoService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(PostSaldoContaService);
+    TestBed.configureTestingModule({
+      providers: [provideHttpClientTesting(), provideHttpClient()]
+    });
+    service = TestBed.inject(PostSaldoService);
   });
 
   it('should be created', () => {

@@ -14,22 +14,6 @@
         <p class="itemAmount" [class.negative]="item.value < 0">
           {{ item.value < 0 ? `- R$` : `R$` }} {{ (getAbsolute(item.value) | number: '1.2-2') ?? '' }}
         </p>
-        <div class="itemActions">
-          <button
-            (click)="handleEditClick(item)"
-            class="actionButton"
-            title="Editar transação"
-          >
-            <img [src]="'/assets/icons/icon-edit.svg'  | imgUrl" alt="Editar" width="20" height="20" />
-          </button>
-          <button
-            (click)="handleDeleteClick(item.id)"
-            class="actionButton"
-            title="Deletar transação"
-          >
-            <img [src]="'/assets/icons/icon-trash.svg'  | imgUrl" alt="Deletar" width="20" height="20" />
-          </button>
-        </div>
       </div>
     </div>
   </ng-container>

@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TransactionFormComponent } from './transaction-form.component';
+import { provideHttpClient } from '@angular/common/http';
 
 describe('TransactionFormComponent', () => {
   let component: TransactionFormComponent;
@@ -8,9 +9,12 @@ describe('TransactionFormComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TransactionFormComponent]
+      imports: [TransactionFormComponent],
+      providers: [
+        provideHttpClient()
+      ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(TransactionFormComponent);
     component = fixture.componentInstance;
