@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { InicioComponent } from './inicio.component';
 import { provideHttpClient } from '@angular/common/http';
+import { provideRouter } from '@angular/router';
 
 describe('InicioComponent', () => {
   let component: InicioComponent;
@@ -11,7 +12,8 @@ describe('InicioComponent', () => {
     await TestBed.configureTestingModule({
       imports: [InicioComponent],
       providers: [
-        provideHttpClient()
+        provideHttpClient(),
+        provideRouter([]),
       ]
     })
       .compileComponents();
